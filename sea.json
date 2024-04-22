@@ -1,5 +1,4 @@
-{
-    "utazasok": [
+[
       {
         "nev": "Humpback Whales",
         "leiras": "Tonga is a special place to visit - and if you go at the right time, you will be forever changed by seeing these gentle giants swimming with babies and engaging in heat runs. The excitement level is high on this trip; there’s nothing like hearing the song of a humpback whale as he tries to encourage a female to mate with him. Conservation is top priority among the locals, who do their best to ensure that the whales have a safe place to mate and birth.",
@@ -30,6 +29,5 @@
         "leiras": "Our Maldives experience combines adventure with cultural and sustainable travel. Our tours allow guests to learn about the Maldives, and its culture, beliefs, and traditions through the eyes of a local. You’ll stay in an overwater bungalow that overlooks a richly diverse lagoon. The island is a safe nesting site for Olive Ridley and Green Sea Turtles. You’ll also be able to work with locals, assisting with rescues and rehabilitation in this incredible ecosystem.",
         "img": "https://example.com/maldives.jpg"
       }
-    ]
-  }
+]
   
