@@ -1,0 +1,26 @@
+HTML
+<!-- Footer -->
+<footer>
+    <div class="footer">
+        <div class="contact-info"></div>
+            <p>Contact Information
+                Phone: 123-456-7890
+                Email: info@mar.com
+                Address: 1234 Ocean Ave. Wavy, CA 12345
+            </p>
+        
+            <p> MAR ©2024</p>
+    </div>
+</footer>
+
+CSS
+/*- - - - - - F O O T E R - - - - - - - - - - - - - */
+.footer {
+    text-align: center;
+    background-color: #b6e8ff;
+    padding: 20px;
+}
+.footer p {
+    display: block;
+    margin-bottom: 10px;
+}
