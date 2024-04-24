@@ -2,6 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/*- - - - - - class   - - - - - - */
+
+.bgi{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /*- - - - - - H E A D E R   - - - - - - */
 .headerTop {
     display: grid;
@@ -16,9 +25,7 @@ body{
 
 
     background-image: url('../images/header1_lg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
 }
 
 .headerTop::after {
@@ -140,6 +147,56 @@ ul li a{
 }
 
 /*- - - - - - C O N T A I N E R 2 END   - - - - - - */
+.secondT{
+    color: white;
+}
 .second{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
     width: 100%;
+    padding: 50px;
+    color: white;
+
+    background-image: url('../images/ctaBG1_lg.jpg');
+  
+}
+
+/*- - - - - - imgs    - - - - - - */
+
+.imgGrid{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.imgGrid img {
+    border: solid 4px rgba(0, 0, 0, 0.274);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    max-height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.items {
+    display: grid;
+}
+
+/* Adjust the position of the images */
+.item1{
+    transform: rotateZ(-25%);
+}
+.item2  {
+    transform: translateX(-15%);
+}
+
+.item3  {
+    transform: translateX(-50%);
+}
+.item4  {
+    transform: translateX(-85%);
+}
+.item5  {
+    transform: translateX(-105%);
 }
