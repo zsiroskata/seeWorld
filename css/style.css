@@ -266,15 +266,31 @@ nav ul li a{
     line-height: 2;
 }
 
+/* - - - - cardsRow - - - - */
 .cardsRow{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.cardsRow .card{
+    width: 100%;
+}
+.cardsRow p{
+    padding: 0 20px ;
+}
+.col-md-4 img {
+    height: 100%;
+    width: 100%;
+}
+
+
 .card-title{
+    margin: 0;
+    padding: 0 20px;
     background-color: #212f54;
     color: white;
     font-size: x-large;
     font-weight: bold;
+
 }
 .card-body{
     padding: 0;
