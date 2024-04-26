@@ -281,7 +281,18 @@ nav ul li a{
     height: 100%;
     width: 100%;
 }
-
+.overlay-text {
+    display: flex;
+    width: 30%;
+    top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    position: absolute;
+    justify-content: center;
+}
 
 .card-title{
     margin: 0;
