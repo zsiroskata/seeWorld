@@ -23,9 +23,7 @@ body{
     overflow: hidden; 
     padding: 30px;
 
-
     background-image: url('../images/header1_lg.jpg');
-
 }
 
 .headerTop::after {
@@ -59,7 +57,6 @@ body{
 /*- - - - - - N A V  - - - - - - */
 .logo{
     width: 5%;
-
 }
 nav{
     display: flex;
@@ -144,6 +141,7 @@ nav ul li a{
     text-align: center; 
     background-color: rgba(255, 255, 255, 0.575);
 }
+
 
 /*- - - - - - C O N T A I N E R 2    - - - - - - */
 .imgT{
@@ -320,4 +318,63 @@ nav ul li a{
 
     background-image: url('../images/ctaBG3_lg.jpg');
 }
+/* MEDIA QUERIES*/
+@media screen and (max-width: 458px) {
+    /*Header*/
+    .headerTop{
+        height: 400px;
+        grid-template-columns: repeat(1, 1fr);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
+    }
+    .c1{
+        display: none;
+    }
+    .c2{
+        width: 100%;
+    }
+    .c2 h1{
+        text-align: center;
+    }
+    /*nav*/
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    nav .logo{
+        display: grid;
+        grid-column: 1/span 3;
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        display: grid;
+        grid-column: 1/span 3;
+        text-align: center;
+        justify-content: center;
+    }
 
+
+    /*First container*/
+    .card-container{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .grid .title{
+        padding: 0;
+        margin: 0;
+        
+        text-align: center;
+        width: 100%;
+        grid-column: 1/span 3;
+        grid-row: 1;
+    }
+    .grid .p{
+        border-top: 1px solid #ccc; 
+        border-right: 0px; 
+    }
+}
