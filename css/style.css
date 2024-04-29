@@ -10,6 +10,9 @@ body{
     background-size: cover;
     background-position: center;
 }
+.img-fluid{
+    width: 100%;
+}
 
 /*- - - - - - H E A D E R   - - - - - - */
 .headerTop {
@@ -177,6 +180,7 @@ nav ul li a{
 
 .items {
     display: grid;
+    
 }
 .item1{
     transform: rotateZ(-25%);
@@ -319,7 +323,55 @@ nav ul li a{
     background-image: url('../images/ctaBG3_lg.jpg');
 }
 /* MEDIA QUERIES*/
-@media screen and (max-width: 458px) {
+
+@media screen and (max-width: 980px) {
+    /*Header*/
+    .headerTop{
+        height: 350px;
+        grid-template-columns: repeat(1, 1fr);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
+    }
+
+    /*First container*/
+    .card-container{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .grid .title{
+        padding: 0;
+        margin: 0;
+        
+        text-align: center;
+        width: 100%;
+        grid-column: 1/span 3;
+        grid-row: 1;
+    }
+    .grid .p{
+        border-top: 1px solid #ccc; 
+        border-right: 0px; 
+    }
+
+    /*THIRD CONTAINER*/
+    .Thirdgrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ThirdTitle{
+        grid-column: 1/span 4;
+        justify-items: center;
+     
+        display: grid;
+    }
+    #problem{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
     /*Header*/
     .headerTop{
         height: 400px;
